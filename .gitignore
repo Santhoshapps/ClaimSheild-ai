@@ -1,0 +1,31 @@
+# Environment variables — never commit these
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Vite cache
+.vite
